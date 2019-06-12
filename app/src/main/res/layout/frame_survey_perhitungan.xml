@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SECTION 3 - Calculation Form"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+                <com.github.florent37.materialtextfield.MaterialTextField
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    app:mtf_image="@drawable/ic_check_box_outline_blank_black_24dp"
+                    app:mtf_labelColor="#666">
+
+                    <EditText
+                        android:id="@+id/et_iksk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="IKSK" />
+                </com.github.florent37.materialtextfield.MaterialTextField>
+
+                <Button
+                    android:id="@+id/btn_submitIKKSK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="42dp"
+                    android:background="@drawable/rounded_button"
+
+                    android:fontFamily="sans-serif"
+                    android:text="SAVE"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.github.florent37.materialtextfield.MaterialTextField
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    app:mtf_image="@drawable/ic_check_box_outline_blank_black_24dp"
+                    app:mtf_labelColor="#666">
+
+                    <EditText
+                        android:id="@+id/et_ikus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="IKUS" />
+                </com.github.florent37.materialtextfield.MaterialTextField>
+
+                <Button
+                    android:id="@+id/btn_submitIKUS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="42dp"
+                    android:background="@drawable/rounded_button"
+
+                    android:fontFamily="sans-serif"
+                    android:text="SAVE"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.github.florent37.materialtextfield.MaterialTextField
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    app:mtf_image="@drawable/ic_check_box_outline_blank_black_24dp"
+                    app:mtf_labelColor="#666">
+
+                    <EditText
+                        android:id="@+id/et_ikkj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="IKKJ" />
+                </com.github.florent37.materialtextfield.MaterialTextField>
+
+                <Button
+                    android:id="@+id/btn_submitIKKJ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="42dp"
+                    android:background="@drawable/rounded_button"
+                    android:fontFamily="sans-serif"
+                    android:text="SAVE"
+
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                app:mtf_image="@drawable/ic_check_box_outline_blank_black_24dp"
+                app:mtf_labelColor="#666">
+
+                <EditText
+                    android:id="@+id/et_iks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="IKS" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_finish"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@color/colorButton"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:text="FINISH">-->
+
+    <!--</Button>-->
+
+</RelativeLayout>
